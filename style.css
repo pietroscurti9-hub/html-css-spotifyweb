@@ -26,6 +26,10 @@
     height: calc(100vh - 100px);
 }
 
+.logo-container {
+    margin-bottom: 20px;
+}
+
 .navbar-list {
     
 }
