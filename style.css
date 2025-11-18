@@ -7,3 +7,21 @@
 
 }
 
+.hr {
+    background-color: #080b12;
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px;;
+}
+
+.button {
+    border: solid;
+    border-radius: 25px;
+    padding: 10px 35px;
+    border-color: white;
+    color: white;
+}
+
+.macro-container {
+    /* background-color: #141922; */
+}
