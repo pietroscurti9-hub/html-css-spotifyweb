@@ -16,25 +16,38 @@
 }
 
 .macro-container {
-    
+
     display: flex;
 }
 
 .navbar {
-    width: 50px;
+    width: 200px;
     background-color: black;
+    height: calc(100vh - 100px);
 }
 
 .navbar-list {
-    display: flex;
-    align-items: center;
+    
 }
 
-.navbar-link{
+.navbar-link {
     color: lightgray;
 }
 
+.player {
+    height: 100px;
+    background: red;
+}
 
+.music-section {
+    flex-grow: 1;
+    background: blue;
+}
 
+.logo-small {
+    max-width: 30px;
+}
 
-
+.icon-small {
+    max-width: 30px;
+}
