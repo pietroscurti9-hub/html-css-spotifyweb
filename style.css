@@ -8,11 +8,16 @@
 }
 
 
+main {
+    height: 100vh;
+}
+
 /* NAVBAR */
 
 .macro-container {
 
     display: flex;
+    height: calc(100% - 70px);
 }
 
 .navbar {
@@ -91,11 +96,15 @@
     justify-content: flex-end;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
 }
 
 .music-section {
     flex-grow: 1;
-    background: #141922
+    background: #141922;
+    overflow-y: scroll;
+    
 }
 
 .menu-bar-container {
@@ -120,6 +129,47 @@
     color: gray;
     margin: 35px 30px;
 }
+
+
+.music-selector {
+    margin-left: 15px;
+}
+
+.h2{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card-container {
+    display: flex;
+    column-gap: 15px;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.playlist-img {
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+
+.card-box {
+    max-width: 180px;
+    text-align: center;
+    color: white;
+
+}    
+
+/* .card-title {
+    text-align: center;
+    color: white;
+} */
+
+.card-text {
+    color: gray;
+    text-align: center;
+}
+
 
 
 
