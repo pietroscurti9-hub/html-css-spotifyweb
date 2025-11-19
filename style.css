@@ -7,13 +7,7 @@
 }
 
 
-.button {
-    border: solid;
-    border-radius: 25px;
-    padding: 10px 35px;
-    border-color: white;
-    color: white;
-}
+/* NAVBAR */
 
 .macro-container {
 
@@ -44,15 +38,9 @@
     color: lightgray;
 }
 
-.player {
-    height: 70px;
-    background: red;
-}
 
-.music-section {
-    flex-grow: 1;
-    background: blue;
-}
+
+
 
 .logo-small {
     max-width: 30px;
@@ -79,4 +67,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* MUSIC SECTION */
+
+.button {
+    border: solid;
+    border-radius: 25px;
+    padding: 10px 35px;
+    border-color: white;
+    color: white;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.music-section {
+    flex-grow: 1;
+    background: #141922
+}
+
+
+
+/* PLAYER */
+
+.player {
+    height: 70px;
+    background: red;
 }
