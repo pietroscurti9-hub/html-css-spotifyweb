@@ -180,5 +180,19 @@ main {
 
 .player {
     height: 70px;
-    background: red;
+    background: #282828;
+}
+
+.player-img {
+    max-width: 50px;
+    float: left;
+    margin-right: 5px;
+}
+
+.text-w {
+    color: white;
+}
+
+.text-g {
+    color: gray;
 }
