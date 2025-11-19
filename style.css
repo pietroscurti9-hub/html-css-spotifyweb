@@ -24,15 +24,18 @@
     width: 200px;
     background-color: black;
     height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo-container {
     margin-bottom: 20px;
 }
 
-.navbar-list {
+/* .navbar-list {
     
-}
+} */
 
 .navbar-link {
     color: lightgray;
@@ -50,8 +53,21 @@
 
 .logo-small {
     max-width: 30px;
+    padding-bottom: 15px;
 }
 
 .icon-small {
     max-width: 30px;
+}
+
+.icon-pf {
+    width: 30px;
+    border-style: solid;
+    border-color: gray;
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.icon-dw {
+    width: 20px;
 }
