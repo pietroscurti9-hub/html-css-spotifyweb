@@ -303,6 +303,10 @@ main {
     display: none;
 }
 
+.display-inline {
+    display: none;
+}
+
 @media  screen and (min-width: 880px) {
 
 
@@ -310,13 +314,36 @@ main {
         width: 280px;
     }
 
-    .big-logo{
-        display: block;
-        margin: 20px;
+    .navbar-list {
+        margin-left: 15px;
     }
 
-    .logo-small{
+    .navbar-bottom-list {
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+
+    .big-logo {
+        display: block;
+        margin: 20px;
+        width: 140px;
+    }
+
+    .logo-small {
         display: none;
+    }
+
+    .logo-container {
+        align-items: initial;
+
+    }
+
+    .display-inline {
+        display: inline;
+    }
+
+    .super {
+        vertical-align: super;
     }
 
     
