@@ -135,8 +135,17 @@ main {
 
 .h2{
     color: white;
-    margin-bottom: 15px;
 }
+    
+
+.sub-h2 {
+    color: gray;
+}
+
+.section-margin {
+    margin-bottom: 40px;
+}
+   
 
 .card-container {
     display: flex;
@@ -151,10 +160,17 @@ main {
     margin-bottom: 15px;
 }
 
+.playlist-circle-img {
+    max-width: 180px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+}
+
 .card-box {
     max-width: 180px;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
 
 }    
 
@@ -280,5 +296,30 @@ main {
     height: 2px;
 }
 
+
+/* parte responsive */
+
+.big-logo {
+    display: none;
+}
+
+@media  screen and (min-width: 880px) {
+
+
+    .navbar {
+        width: 280px;
+    }
+
+    .big-logo{
+        display: block;
+        margin: 20px;
+    }
+
+    .logo-small{
+        display: none;
+    }
+
+    
+}
 
 
