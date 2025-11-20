@@ -36,9 +36,7 @@ main {
     align-items: center;
 }
 
-/* .navbar-list {
-    
-} */
+
 
 .navbar-link {
     color: lightgray;
@@ -160,10 +158,7 @@ main {
 
 }    
 
-/* .card-title {
-    text-align: center;
-    color: white;
-} */
+
 
 .card-text {
     color: gray;
@@ -181,13 +176,10 @@ main {
 .player {
     height: 70px;
     background: #282828;
+    display: flex;
+    justify-content: space-around;
 }
 
-.player-img {
-    max-width: 50px;
-    float: left;
-    margin-right: 5px;
-}
 
 .text-w {
     color: white;
@@ -196,3 +188,97 @@ main {
 .text-g {
     color: gray;
 }
+
+
+ /* LEFT PLAYER */
+.player-img {
+    max-width: 50px;
+   
+    margin-right: 5px;
+}
+
+.actual-music {
+    display: flex;
+    padding-top: 10px;
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.img-left {
+    margin-left: 1%;
+}
+
+.text-right {
+ margin-left: 1%;
+}
+
+.icon-player-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.icon-player-center {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* CENTER PLAYER */
+
+.center-player {
+    width: 50%;
+    margin-top: 10px;
+}
+    
+
+.top-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-box {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-minutes {
+    color: gray;
+    margin: 0 1%;
+}
+
+.player-bar {
+    width: 80%;
+    background-color: gray;
+    height: 2px;
+}
+
+/* RIGHT PLAYER */
+
+.right-player {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    column-gap: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.icon-right-player {
+    color: white;
+
+}
+
+.right-player-bar {
+    width: 60%;
+    background-color: gray;
+    height: 2px;
+}
+
+
+
