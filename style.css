@@ -42,7 +42,9 @@ main {
     color: lightgray;
 }
 
-
+.navbar-margin {
+    
+}
 
 
 
@@ -305,6 +307,22 @@ main {
 
 .display-inline {
     display: none;
+}
+
+.playlist-container {
+    margin-left: 15px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    column-gap: 5px;
+}
+
+.nav-icon {
+    color: gray;
+    font-size: 50px;
 }
 
 @media  screen and (min-width: 880px) {
